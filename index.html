@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jearim Cimafranca">
+  <link rel="icon" href="assets/img/dotLogo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bebas+Neue&family=Cinzel:wght@500&family=Fjalla+One&family=Roboto+Condensed&family=Sofia+Sans+Condensed&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <title>p_helloJearim</title>
+</head>
+<body>
+  <header>
+
+    <div class="navBar">
+      <div class="logo">
+        <a class="logoHome" href="meSite.html">
+          <span>HELLO,</span>
+          <span>WORLD!</span>
+        </a>
+      </div>
+
+      <ul class="navText">
+        <li class="textNav hello"><a class="text_nav" href="#first_page">home world</a></li>
+        <li class="textNav myself" ><a class="text_nav" href="#second_page">who am i</a></li>
+        <li class="textNav what" ><a class="text_nav" href="#third_page">projects</a></li>
+        <li class="textNav future" ><a class="text_nav" href="#fourth_page">what i do</a></li>
+        <li class="textNav contact"><a class="text_nav" href="#fifth_page">contact me</a></li>
+      </ul>
+      <div class="toggle_btn">
+        <img class="barLogo" id="clickDrop" src="assets/img/navIcon.png">
+      </div>
+    </div>
+
+    <div class="dropDownMenu">
+      <ul class="dropMenuList">
+        <li class="dropDownText hello">HELLO WORLD</li>
+        <li class="dropDownText myself" >I AM MYSELF</li>
+        <li class="dropDownText what" >WHAT I LOVE</li>
+        <li class="dropDownText future" >MY FUTURE</li>
+        <li class="dropDownText contact" >CONTACT ME</li>
+      </ul>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="main_1" id="first_page">
+      <h1 class="hero_h1">
+        <span class="hero_span1">Hello,</span>
+        <span class="hero_span2">I'm Jearim</span>
+      </h1>
+      <div class="eye_shadow"></div>
+   </section>
+
+    <section class="main_2" id="second_page">
+      <div class="info_container">
+        <div class="personal_info" id="my_info">
+          <h1 id="myIntro">I'm <span class="jearim_effect">Jearim</span>, a web developer<br>and designer currently<br> studying Information <br>Technology.</h1>
+      </div>
+      <div class="my_picture">
+        <img class="picture_me" src="assets/img/mePic.png" alt="chichi">
+      </div>
+    </div>
+    </section>
+
+    
+
+    <section class="main_3" id="third_page">
+      <div class="project_container">
+        <div class="showcase" id="project_showcase_1">
+          <h2 class="project_title">Project<br>Hello World!</h2>
+          <p class="project_description">My first ever project that i made with a certain goal to just test, experiment and master the basics of html and css. This wont be the last tho, I will be refinining my html and css skills until I am satisfied.</p><a class="project_link" href="">ACCESS</a>
+        </div>
+        <div class="showcase" id="project_showcase_2"><h2 class="project_title">Project B on-going</h2>
+          <p class="project_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae obcaecati enim, eius, accusamus fugiat quam blanditiis quisquam sint</p><a class="project_link" href="">ACCESS</a></div>
+          <div class="showcase" id="project_showcase_3"><h2 class="project_title">Project C on-going</h2>
+          <p class="project_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae obcaecati enim, eius, accusamus fugiat quam blanditiis quisquam sint</p><a class="project_link" href="">ACCESS</a></div>
+      </div>
+      <div class="sliding_effect">
+        <h1 class="sliding_text">PROJECTS</h1>
+        <h1 class="sliding_text">PROJECTS</h1>
+        <h1 class="sliding_text">PROJECTS</h1>
+        <h1 class="sliding_text">PROJECTS</h1>
+      </div>
+    </section>
+
+
+    <section class="main_4" id="fourth_page">
+
+    </section>
+
+    
+  </main>
+
+  <script>
+    const toggleBtn = document.querySelector('.toggle_btn');
+    const toggleBtnImg = document.querySelector('.toggle_btn img');
+    const dropDownMenu = document.querySelector('.dropDownMenu');
+
+    toggleBtn.onclick = function () {
+    dropDownMenu.classList.toggle('open');
+    document.body.classList.toggle('menu-open');
+    }
+
+  </script>
+</body>
+</html>
