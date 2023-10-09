@@ -6,3 +6,4 @@ And that's all for my intro! Walk with me on my journey to becoming a full-stack
 
 UPDATE!
 First upload: 8/10/23 5 PM.
+Overhaul completely to new design and everything. 9/10/23 8PM.
