@@ -103,6 +103,16 @@ main {
   transition: .3s ease;
 }
 
+#sysops {
+  color: gray;
+  transition: .3s ease;
+}
+
+#sysops:hover {
+  color:red;
+  transition: 3.s ease;
+}
+
 .my_name:hover {
   color: white;
   transition: .3s ease;
@@ -111,6 +121,11 @@ main {
     color: red;
     transition: .3s ease;
   }
+
+  #sysops {
+    color:red;
+    transition: .3s ease;
+  }  
 }
 
 
@@ -135,6 +150,15 @@ main {
   align-items: center;
 }
 
+.pTitleText {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-self: center; 
+  padding: 50px 0px 100px 0px;
+  font-size: 5rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 .projects {
   width: 300px;
   height: 600px;
@@ -143,7 +167,7 @@ main {
 }
 
 .project_1 {
-  background-image: url(assets/img/project_1_showcase.png);
+  background-image: url(assets/img/warDev.png);
   background-size: cover;
   background-position: center;
   opacity: 0.5;
